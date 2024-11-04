@@ -1,0 +1,11 @@
+#Página de Login curso JAVA
+https://canvas.instructure.com/login/canvas
+
+#Página de acesso ao curso JAVA
+https://canvas.instructure.com/courses/9417836
+
+#Página de Login do AWS
+https://awsacademy.instructure.com/login/canvas
+
+#Página de acesso ao AWS
+https://awsacademy.instructure.com/?login_success=1
