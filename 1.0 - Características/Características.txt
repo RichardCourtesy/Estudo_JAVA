@@ -1,0 +1,42 @@
+Características da Linguagem Java
+
+POO: Em Java, tudo é um objeto. É fácil de entender, pois é baseado em POO.
+
+Independente de Plataforma: Quando o Java é compilado, não é convertido em 
+código de máquina específico de uma plataforma, mas sim em byte code 
+independente de plataforma. Esse byte code é  interpretado pela Máquina 
+Virtual (JVM) na plataforma em que está sendo executado (Mac, Windows, 
+Linux etc).
+
+    #Processo de compilação e execução de um código Java. -> 1.0_imagem#
+
+Simples: Se torna uma linguagem muito fácil de aprender quando se domina
+o POO em Java. Entretanto, Java é considerado "verboso" se comparado com
+outras linguagens como o Python. Isso significa que para criar programas
+em Java é preciso usar mais linhas de código com mais definições.
+
+Seguro: Com a característica de segurança do Java, é possível desenvolver
+sistemas praticamente livres de vírus e invioláveis. Por exemplo, as
+técnicas de autenticação podem ser baseadas em criptografia de chave
+pública.
+
+Arquitetura-neutra: O compilador Java gera um arquivo de objeto neutro em
+arquitetura (.class), o que torna o código compilado executável em muitos
+processadores, com a presença do sistema de tempo de execução Java
+(JRE - Java Runtime Enviroment).
+
+Portátil: Possúir arquitetura neutra e não necessitar de implementação na
+especificação torna o Java portátil.
+
+Robusto: O Java faz um esforço para eliminar situações propensas a erros,
+enfatizando principalmente a verificação de erros em tempo de compilação e
+em tempo de execução.
+
+Multithreaded: O multithreaded é um recurso do Java que o permite realizar
+realizar muitas tarefas simultaneamente. Esse recurso permite aos dev's 
+construir aplicações interativas que podem rodar de forma suave.
+
+Interpretado: O bytecode Java é traduzido em tempo real para instruções de
+máquina nativas e não é armazenado em lugar algum. O processo de
+desenvolvimento é mais rápido e analítico, porque a ligação com o sistema
+operacional é um processo leve e incremental.
