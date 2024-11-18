@@ -1,0 +1,64 @@
+- Classe: Um molde ou blueprint que define os atributos e métodos de um objeto.
+
+- Objeto: Uma instância concreta de uma classe, com atributos próprios e acesso 
+aos métodos definidos pela classe.
+
+- Métodos: Ações que os objetos podem realizar, definidas dentro de uma classe.
+
+- Variáveis de Instância: Atributos que guardam dados específicos de cada 
+objeto, podendo variar de uma instância para outra.
+
+
+
+Classe
+Uma classe em Java é como um molde ou blueprint que define a estrutura e o comportamento de um conjunto de objetos. Ela descreve quais atributos (dados, características) e métodos (comportamentos, ações) um objeto daquela classe pode ter.
+Por exemplo, uma classe Pessoa pode ter atributos como nome, idade e métodos como andar() ou falar().
+
+Exemplo:
+
+public class Pessoa {
+    String nome;
+    int idade;
+
+    void falar() {
+        System.out.println("Estou falando!");
+    }
+}
+
+
+
+Objeto
+Um objeto é uma instância de uma classe. Ele representa algo concreto e específico criado a partir do molde da classe.
+Por exemplo, se Pessoa é a classe, um objeto seria uma pessoa específica, como "João", que tem atributos próprios (nome = "João"; idade = 30).
+
+Exemplo:
+
+Pessoa pessoa1 = new Pessoa();
+pessoa1.nome = "João";
+pessoa1.idade = 30;
+pessoa1.falar(); // Chama o método "falar"
+
+
+
+Métodos
+Os métodos são as ações que os objetos podem realizar. Eles são funções definidas dentro de uma classe e podem operar sobre os atributos do objeto ou realizar tarefas específicas.
+
+Exemplo:
+No exemplo acima, o método falar() é uma ação que qualquer objeto do tipo Pessoa pode executar.
+
+
+
+Variáveis de Instância
+As variáveis de instância são os atributos que pertencem a cada objeto individualmente. Cada objeto pode ter valores diferentes para essas variáveis, mesmo sendo da mesma classe. Elas são declaradas fora de qualquer método, dentro da classe.
+
+Exemplo:
+No exemplo anterior, nome e idade são variáveis de instância.
+Se criarmos dois objetos, pessoa1 e pessoa2, cada um pode ter valores diferentes para essas variáveis:
+
+Pessoa pessoa2 = new Pessoa();
+pessoa2.nome = "Maria";
+pessoa2.idade = 25;
+
+// Atributos de cada objeto:
+System.out.println(pessoa1.nome); // João
+System.out.println(pessoa2.nome); // Maria
