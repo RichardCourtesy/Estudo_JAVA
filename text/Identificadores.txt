@@ -1,0 +1,10 @@
+Identificadores
+Todos os componentes Java exigem nomes. Os nomes que são usados para definição de classes, variáveis e métodos são chamados identificadores. No Java, existem restrições quanto ao nome que damos aos identificadores. Vejamos essas restrições:
+
+-Todos os identificadores devem começar com uma letra (A a Z ou a a z), caractere de moeda ($) ou um sublinhado (_).
+-Após o primeiro caractere, os identificadores podem ter qualquer combinação de caracteres.
+-Uma palavra-chave ou palavra reservada (Java KeyWord) não pode ser usada como um identificador. Por exemplo, não podemos criar uma variável chamada class pois conflita com o nome do identificador de criacao de uma nova classe.
+-Os identificadores são sensíveis a maiúsculas e minúsculas, uma variável HELLOWORD e diferente de uma variavel helloworld.
+
+Exemplos de identificadores válidos: age, $salary, _value, __1_value
+Exemplos de identificadores inválidos: 123abc, -salary

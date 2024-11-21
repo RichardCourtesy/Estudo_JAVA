@@ -1,0 +1,5 @@
+O nomo da class sempre deve começar com uma letra maiúscula 
+Exemplo: class MyFirstJavaClass()
+
+O nomo dos metodos sempre deve começar com uma letra minúscula e as seguistes palavras com letras maiúsculas 
+Exemplo: public void myMethodName()
