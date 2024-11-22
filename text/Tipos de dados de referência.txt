@@ -1,0 +1,34 @@
+No Java, os tipos de dados de referência são usados para referenciar objetos. Eles são diferentes dos tipos de dados primitivos que armazenam valores diretamente (e não referencia). 
+
+As Classes Representam conjuntos de objetos que compartilham um mesmo modelo. Por exemplo, String, Integer e qualquer classe definida pelo desenvolvedor (Pessoal, Carro, Casa) são tipos de dados de referência.
+
+Algumas observacoes:
+
+Objetos de classe e vários tipos de variáveis de array estão sob o tipo de dado de referência.
+O valor padrão de qualquer variável de referência é null.
+Uma variável de referência pode ser usada para se referir a qualquer objeto do tipo declarado ou qualquer tipo compatível (veremos herança).
+Exemplo de criação: Animal animal = new Animal("girafa");
+ 
+
+Tipos de dados primitivos vs tipos de dados de referencia
+Em Java, os tipos primitivos têm correspondentes tipos de dados de referência, chamados de "classes wrapper". Aqui estão os tipos primitivos e seus respectivos tipos de dados de referência:
+
+byte: Byte
+short: Short
+int: Integer
+long: Long
+float: Float
+double: Double
+char: Character
+boolean: Boolean
+Essas classes wrapper fornecem funcionalidades adicionais, como métodos para conversão de tipo e operações úteis para manipulação de dados. Por exemplo, a classe Integer possui métodos para converter valores inteiros em strings e vice-versa, bem como métodos para realizar operações matemáticas com valores inteiros.
+
+[INSERIR EXEMPLO DE CODIGO]
+
+Os limites dos tipos de dados de referência (classes wrapper) não são os mesmos que os dos tipos primitivos correspondentes.
+
+Como vimos, paraos tipos primitivos, como int, byte, short, long, float, double, char e boolean, os limites são definidos pelo próprio tipo. Por exemplo, para int, o limite é de -2.147.483.648 a 2.147.483.647.
+
+No entanto, para os tipos de dados de referência (classes wrapper), como Integer, Byte, Short, Long, Float, Double, Character e Boolean, os limites são definidos pela própria classe. Esses limites não se referem diretamente ao valor armazenado, mas sim à capacidade da classe em si. Por exemplo, a classe Integer tem métodos para verificar os limites dos valores inteiros que ela representa, mas não há um limite rígido estabelecido pela própria classe, como nos tipos primitivos.
+
+Por exemplo, o tamanho de um Integer é definido pela JVM (Java Virtual Machine) e não tem um limite fixo como os tipos primitivos têm. No entanto, o valor máximo que um int (e, por extensão, um Integer) pode armazenar é de 2^31 - 1, que é 2.147.483.647. Isso ocorre porque um int é armazenado em 32 bits, e 1 bit é usado para representar o sinal (positivo ou negativo), então o intervalo válido é de -2^31 a 2^31 - 1.
