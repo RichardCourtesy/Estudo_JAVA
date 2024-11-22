@@ -1,3 +1,5 @@
+package Programas.Passagem_de_argumentos;
+
 // essa codigo conta a quantidade de argumentos realizados
 
 public class ArgumentosCont {

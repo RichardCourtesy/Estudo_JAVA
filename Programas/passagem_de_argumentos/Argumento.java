@@ -1,4 +1,6 @@
-//nesse código é impresso o primeiro argumento "0" que é inserido no terminal
+package Programas.Passagem_de_argumentos;
+
+// nesse código é impresso o primeiro argumento "0" que é inserido no terminal
 
 public class Argumento {
     public static void main(String args[]) {
