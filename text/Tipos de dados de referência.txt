@@ -1,3 +1,18 @@
+Basicamente a diferença é que o primitivo vai armazenar seu valor no seu próprio objeto, o de referencia usa o valor de outro objeto.
+como exemplo podemos usar um objeto criado em uma planilha e que tera o seu valor referenciado por um outro objeto em banco de dados
+
+ Por que usar tipos de referência (Integer, Double...)?
+Os tipos de referência são úteis quando precisamos de funcionalidades extras, como:
+
+Trabalhar com null (tipos primitivos não podem ser null).
+Usar coleções (List<Integer>, Map<String, Double>) – O Java só aceita tipos de referência em coleções.
+Converter valores para String facilmente (Integer.toString()).
+Usar métodos úteis, como Integer.parseInt() ou Double.valueOf().
+
+
+Quando lidamos com dados de referência, estamos manipulando endereços de memória e não os valores diretamente.
+
+
 No Java, os tipos de dados de referência são usados para referenciar objetos. Eles são diferentes dos tipos de dados primitivos que armazenam valores diretamente (e não referencia). 
 
 As Classes Representam conjuntos de objetos que compartilham um mesmo modelo. Por exemplo, String, Integer e qualquer classe definida pelo desenvolvedor (Pessoal, Carro, Casa) são tipos de dados de referência.
@@ -27,7 +42,7 @@ Essas classes wrapper fornecem funcionalidades adicionais, como métodos para co
 
 Os limites dos tipos de dados de referência (classes wrapper) não são os mesmos que os dos tipos primitivos correspondentes.
 
-Como vimos, paraos tipos primitivos, como int, byte, short, long, float, double, char e boolean, os limites são definidos pelo próprio tipo. Por exemplo, para int, o limite é de -2.147.483.648 a 2.147.483.647.
+Como vimos, para os tipos primitivos, como int, byte, short, long, float, double, char e boolean, os limites são definidos pelo próprio tipo. Por exemplo, para int, o limite é de -2.147.483.648 a 2.147.483.647.
 
 No entanto, para os tipos de dados de referência (classes wrapper), como Integer, Byte, Short, Long, Float, Double, Character e Boolean, os limites são definidos pela própria classe. Esses limites não se referem diretamente ao valor armazenado, mas sim à capacidade da classe em si. Por exemplo, a classe Integer tem métodos para verificar os limites dos valores inteiros que ela representa, mas não há um limite rígido estabelecido pela própria classe, como nos tipos primitivos.
 
