@@ -1,4 +1,4 @@
-package Programas.Passagem_de_argumentos;
+package Programas.passagem_de_argumentos.ArgumentosCont;
 
 // essa codigo conta a quantidade de argumentos realizados
 

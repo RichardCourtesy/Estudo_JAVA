@@ -1,4 +1,4 @@
-package Programas.Passagem_de_argumentos;
+package Programas.passagem_de_argumentos.ArgumentosInv;
 
 // esse código mostra os argumentos na ordem inversa
 

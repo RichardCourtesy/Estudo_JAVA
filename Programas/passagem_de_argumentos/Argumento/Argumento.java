@@ -1,4 +1,4 @@
-package Programas.Passagem_de_argumentos;
+package Programas.passagem_de_argumentos.Argumento;
 
 // nesse código é impresso o primeiro argumento "0" que é inserido no terminal
 
